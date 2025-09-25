@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { StyleSheet, View } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -44,13 +44,13 @@ const styles = StyleSheet.create({
 
   parteBoneco: { position: "absolute", backgroundColor: "black" },
   cabeca: { width: 40, height: 40, borderRadius: 20, top: 70, left: 170 },
-  tronco: { width: 10, height: 60, top: 110, left: 185 },
+  tronco: { width: 10, height: 50, top: 110, left: 185 },
   bracoEsquerdo: {
     width: 40,
     height: 10,
     transform: [{ rotate: "45deg" }],
     top: 120,
-    left: 150,
+    left: 155,
   },
   bracoDireito: {
     width: 40,
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     height: 10,
     transform: [{ rotate: "-45deg" }],
     top: 160,
-    left: 150,
+    left: 155,
   },
   pernaDireita: {
     width: 40,

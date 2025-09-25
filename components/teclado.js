@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
   },
   botao: {
-    backgroundColor: '#3498db',
+    backgroundColor: '#054772ff',
     padding: 10,
     margin: 5,
     borderRadius: 5,
